@@ -11,9 +11,6 @@ export default function Home() {
         <h1 className="mx-auto mt-5 max-w-4xl text-5xl font-semibold tracking-[-0.05em] text-neutral-950 md:text-7xl">
           探索历代 iPhone。
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-neutral-500">
-          用年份、芯片、容量、颜色与型号编号快速检索 Apple 产品。第一版聚焦 iPhone 分类，数据由本地 JSON 驱动。
-        </p>
       </section>
       <SearchFilters products={allProducts} options={getFilterOptions()} />
     </main>
